@@ -17,11 +17,12 @@ to get cli help
 ```
 ./trace --help
 ```
+```
 Flags:
       --block string      block number
   -h, --help              help for this command
       --rpc string        URL of rpc to fetch the traces
       --snapshot string   Path to the snapshot
-
+```
 If --snapshot flag provided script will check snapshot block with provided block will return error if they missmatch.
 
