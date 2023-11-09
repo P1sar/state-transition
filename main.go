@@ -1,6 +1,6 @@
 package main
 
-import "flashbots-state-transition/tracer"
+import "state-transition/tracer"
 
 func main() {
 	tracer.Execute()
